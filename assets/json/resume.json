@@ -1,18 +1,18 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Avina",
+    "label": "Student",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "ax2051@nyu.edu",
+    "phone": "(551) 237-1192",
+    "url": "https://avina20.github.io",
+    "summary": "A New York residing, Master's student at New York University, majoring in Computer Science. I am a passionate learner and a quick adapter to new technologies. I am looking for job opportunities in USA, to apply my skills and knowledge in the real world.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "59th Stret",
+      "postalCode": "11220",
+      "city": "New York",
       "countryCode": "US",
-      "region": "California"
+      "region": "New York"
     },
     "profiles": [
       {

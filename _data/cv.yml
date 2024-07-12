@@ -2,38 +2,44 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Avina
     - name: Date of Birth
-      value: 14th March 1879
+      value: 20th August 1998
     - name: Languages
-      value: English, German
+      value: English, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master of Science
+      institution: New York University, New York, US
+      year: 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
+        - Computer Science
+        - GPA: 3.6
+        - title: Courses
           contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+            - Design and Analysis of Algorithms
+            - Operating Systems
+            - Machine Learning
+            - Information, Security, and Privacy
+            - Cloud Computing
+            - Principles of Database Systems
+            - Big Data
+            - Software Engineering
+    - title: Bachelor of Technology
+      institution: Vellore Institute of Technology, Vellore, India
+      year: 2021
       description:
-        - Description 1.
-        - Description 2.
+        - Computer Science and Engineering
+        - GPA: 8.89
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Software Engineer - Backend
+      institution: PharmEasy
+      year: 2021 - 2023
       description:
         - Description 1.
         - Description 2.
