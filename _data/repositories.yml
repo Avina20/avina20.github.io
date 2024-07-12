@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Avina20
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Avina20/ConnectX
+  - Avina20/classmate-io
+  - Avina20/Votesafe
+  - Avina20/Dining-Concierge
+  - Avina20/MCQ-generator
+  - Avina20/Amilcartek
+  - Avina20/Geospatial-ERA5-prediction
