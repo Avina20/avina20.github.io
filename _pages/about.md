@@ -2,24 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: New York. 5512371192
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: cv_dp.jpeg
+  image_circular: true # crops the image to make it circular
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a second year Master's student at [New York University](https://www.nyu.edu/) majoring in Computer Science with current GPA of 3.6. I have done my Bachelors from [Vellore Institute of Technology](https://vit.ac.in/) majoring in Computer Science and Engineering with 8.89 GPA.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I have 2 years work experience as Software Engineer (Backend) in an e-pharmacy startup called [PharmEasy](https://pharmeasy.in/). I have also interned as Research Intern (Image Processing) in [Indian Space Research Organization](https://www.isro.gov.in/) where I worked on the Normalization of satellite images. I have also interned in [Amilcar Technologies](https://www.amilcartek.com/) as Web Developer for 2 months where I was responsible for recreation of their official website. The details can be found in [CV](/cv/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Apart from these, I have worked on a number of personal and academic projects. I have done projects on web development and app development. I really enjoyed learning and implementing Machine Learning models to solve interesting problems. I also skilled myself in Deep Learning techniques and developed projects using DL models, which really helped me in my ISRO internship as well. Recently I took part in the GenAI hackathon by Amazon in NY. I am also intrigued by NLP and have built projects on summarization and mcq generation. The details can be found in [Projects](/projects/).
+
+I am really passionate about technology. I am really interested in exploring new developments, learning new skills and using those skills to build something creative and useful. I have always loved working in teams and have great communication skills.
