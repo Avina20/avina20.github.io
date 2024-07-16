@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: New York. 5512371192
+subtitle: New York. 5512371192. ax2051@nyu.edu
 
 profile:
   align: right
