@@ -1,80 +1,45 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Normalization of ESA’s ENVISAT ocean satellite images
+description: Research internship in Image Processing under Dr. Santhi V funded by ISRO
+img: assets/img/inp1.jpg
 importance: 3
-category: fun
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The decrease of backscatter in the range direction of the signal received by sensors while radar imaging results in a progressive reduction of brightness over images from near to far range. Mostly HH and VV polarizations are affected by this phenomenon. This affects the detection and classification of sea surface features and activities in SAR images. In this paper, we proposed an algorithm to normalize the satellite images obtained by radar remote sensing. The backscatter of waves results in gradual decrease of brightness along the nadir, from near range to far range, and to minimize the effects of the backscatter the images was be normalized to a reference angle, and thereby producing in higher quality image with easier object detection in them. We implemented the incidence angle normalization using an inverse profile to normalize the image. The inverse profile is simply an image in which the direction of progressive decrease of brightness is reversed. The inverse profile is created in a way that on merging with the input image, it results in an image with normalized backscatter. The normalized image can be used to monitor the activities in the ocean, like oil spill, currents, eddies, etc. or can be used to improve the quality of raw data for further research on SAR images and detect various oceanographic activities.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+    Python
+    Image Processing
+    Satellite Images
+    Big Data
+    Machine Learning
+    Java Swing
+    Research
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/inp1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/inv.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/out1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    (a) Original image; (b) Inverse profile generated of the original image; (c) Normalized image
 </div>
+
+In order to assess the performance of the algorithm, various metrics were used. They gave mathematical proof of the efficiency of the normalization. The value obtained by running metrics on the output images not only demonstrated the magnitude of normalization, but provided us quantitative results, as an evidence to the quality of our results. Also, Built Java GUI and integrated four other Satellite images  processing projects, for interactive user experience.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/normalization.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Architecture
 </div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}

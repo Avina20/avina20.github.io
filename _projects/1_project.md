@@ -1,81 +1,61 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Classmate.io
+description: Revolutionizing learning experience using gamification and AI; Web app built on AWS using NLP techniques 
+img: assets/img/elearning.jpg
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In response to the challenges posed by digital distractions in contemporary education, this study introduces a scalable web application designed to revolutionize the learning experience. Traditional learning methods, reliant on note-taking and memorization, often struggle to captivate students in an era of abundant internet-based diversions. The proposed solution addresses this issue by incorporating gamification principles, offering a reward system and feedback analysis to boost engagement and motivation. Beyond typical Multiple-Choice Question (MCQ) generation, the application encompasses features such as text summarization, notes handling, login/signup functionality, lecture transcription, and efficient data storage. By providing a multifaceted approach to learning enhancement, the web application seeks to create a conducive environment for students who grapple with distractions. All while building a scalable application on Cloud and incorporating MLOPs features!
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+    ● MCQ Generation
+    ● Text Summarization
+    ● Notes Handling
+    ● Log In & Sign Up
+    ● Transcription of Lectures
+    ● Efficient storage of data objects.
+    ● Event tracking
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/nlp.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/mlops.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+The architecture of our application revolves around seamlessly managing student notes, employing various functionalities for a comprehensive learning experience. A seamless Machine Learning Ops system which has the components of data pipelines, automatic model training, and model deployment using the AWS `Sagemaker`.Leveraging AWS `Lambda`, our application handles diverse tasks such as note creation, summarization, updating, and deletion using CRUD. By integrating `S3` for efficient storage and retrieval of notes, Amazon `Transcribe` for audio lecture transcription, the application ensures a robust and scalable infrastructure. Through API `Gateway`, we facilitate secure communication between clients and Lambda functions, ensuring data integrity and confidentiality. The application employs AWS `Cognito` for user authentication, enhancing security. We deployed our Flask application on Amazon `EC2`, a virtual server service offered by AWS that allows us to launch virtual servers in the cloud, with varying CPU, memory, storage, and networking capacity. AWS `Lex` for the implementation of a chatbot for website navigation, `DynamoDB` for data storage and `SNS` for event alerts
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/classmateIo.png" title="example image" class="img-fluid rounded z-depth-1"%}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Architecture diagram
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+`TEXT SUMMARIZATION`
 
-{% raw %}
+In our project, we have utilized the DistilBart-CNN-12-6 model and fine-tuned it on the Cornell
+arxiv dataset which contains paper abstracts and their respective titles. Data Source and Model data have been stored in the default AWS sagemaker bucket for our Studio and Instance Configuration were set to use Python 3.9 with Pytorch v1.13 and a server type of ml.p3.2xlarge
+which utilized 8 vCPUs, 61 gb of instance memory and 1 Nvidia v100 GPU. Then, AWS Sagemaker creates a Training job and retrieves and provisions the respective Deep Learning Container image onto our instance and runs the training.
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
-{% endraw %}
+`MCQ GENERATION`
+
+`Keyword Extraction` - Named Entity Recognition or Noun chunk extraction is applied on every selected sentence and to select the word which is important
+`NAMED ENTITY RECOGNITION` - Named entity recognition (NER) helps in the process of information extraction that locates and classifies named entities in text into predefined categories
+`DISTRACTOR GENERATOR`-Distractor generator is made with the purpose to distract the students from the correct answer choice. The extracted keywords are fed into models trained by Gensim and
+Word2Vec embeddings in order to generate similar words.
+`GENSIM` - Gensim is a Python library for topic modeling, document indexing and similarity retrieval with large corpora.
+`WORD2VEC` - Word2Vec is one of the most popular techniques to learn word embeddings using shallow neural networks. Word embedding is one of the most popular representations of document vocabulary.
+`GLOVE` - Unsupervised learning algorithm for vectorization of words from a corpus which we have used in our Training.
+
+The code for the web app can be found here : <a href="https://github.com/Avina20/classmate-io">Code</a>
+
+Additional code for NLP implementations for text summarization and improved MCQ generation can be found here <a href="https://github.com/Avina20/MCQ-generator">Here</a>
