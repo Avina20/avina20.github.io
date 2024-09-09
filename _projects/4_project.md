@@ -3,7 +3,7 @@ layout: page
 title: Normalization of ESA’s ENVISAT ocean satellite images
 description: Research internship in Image Processing under Dr. Santhi V funded by ISRO
 img: assets/img/inp1.jpg
-importance: 3
+importance: 1
 category: work
 ---
 
