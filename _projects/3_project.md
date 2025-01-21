@@ -24,9 +24,9 @@ A database that stores calendars and appointments, where the user can access thi
 
 
 <div class="row"></div>
-The code for the project can be found at <a href="https://avina20.github.io/Vacbook-PharmEasy">Live website</a>, this a web application.
+The code for the project can be found at <a href="https://github.com/Avina20/Vacbook-PharmEasy">Live website</a>, this a web application.
 
-<a href="https://avina20.github.io/Vacbook/">Live website</a> is a Java Swing application.
+<a href="https://github.com/Avina20/Vacbook/">Live website</a> is a Java Swing application.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
