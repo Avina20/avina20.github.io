@@ -199,7 +199,7 @@
   ],
   "languages": [
     {
-      "language": "German",
+      "language": "Hindi",
       "fluency": "Native speaker",
       "icon": ""
     },
@@ -207,7 +207,12 @@
       "language": "English",
       "fluency": "Fluent",
       "icon": ""
-    }
+    },
+    {
+      "language": "German",
+      "fluency": "Beginner",
+      "icon": ""
+    },
   ],
   "interests": [
     {
