@@ -32,7 +32,7 @@
       "startDate": "2023-09-01",
       "endDate": "",
       "GPA": "3.6",
-      "courses": ["Design and Analysis of Algorithms, Operating Systems, Machine Learning, Information, Security, and Privacy, Cloud Computing, Principles of Database Systems, Big Data, Software Engineering"]
+      "courses": ["Design and Analysis of Algorithms, Operating Systems, Machine Learning, Information, Security, and Privacy, Cloud Computing, Special Topics in Java, Principles of Database Systems, Data Engineering, Big Data, Software Engineering"]
     },
     {
       "institution": "Vellore Institute of Technology",
@@ -48,12 +48,28 @@
   ],
   "work": [
     {
+      "name": "Metropolitan Transportation Authority (MTA)",
+      "position": "Operations Support Intern",
+      "url": "https://new.mta.info/",
+      "startDate": "2025-01-30",
+      "endDate": "2025-05-09",
+      "summary": "Construct Workforce Manage System and Streamline timekeeping process by digitizing timekeeping. Design Quarterly Training Blitz Communication. Predict demand using historical data, forecasting records to anticipate workload changes"
+    },
+    {
+      "name": "Develop for Good",
+      "position": "Engineering Manager Intern",
+      "url": "https://pharmeasy.in/",
+      "startDate": "2024-10-08",
+      "endDate": "",
+      "summary": "Defined technical milestones and delegated weekly deliverables to a team of engineers, ensuring alignment with project timelines and objectives for an AI-driven journaling app. Contributed hands-on development expertise using React Native to build a cohesive user experience for the app, designed to provide spiritual insights and facilitate daily reflections. Collaborated closely with the Product Manager to oversee technical planning, resource allocation, and quality assurance, enabling smooth development processes and adherence to project standards. \n {React Native, Typescript, Expo, Supabase, WatermelonDB}"
+    },
+    {
       "name": "PharmEasy",
       "position": "Software Engineer - Backend",
-      "url": "https://pharmeasy.in/",
+      "url": "https://www.developforgood.org/",
       "startDate": "2021-07-12",
       "endDate": "2023-07-12",
-      "summary": "Designing, developing, and delivering scalable and robust solutions for the online pharmacy platform. {Java, Kotlin, Spring Boot, Microservices, Kafka, Redis, MySQL, MongoDB, AWS, Docker, Kubernetes}",
+      "summary": "Designing, developing, and delivering scalable and robust solutions for the online pharmacy platform. {Java, Kotlin, Spring Boot, Microservices, Kafka, Redis, MySQL, AWS, Kubernetes}",
       "highlights": ["Certificate of Recognition - Supply Chain Platform Engineering"]
     },
     {
