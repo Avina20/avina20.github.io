@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
+
+gem 'jekyll'
+
+# Core plugins that directly affect site building
 group :jekyll_plugins do
-    gem 'classifier-reborn'
-    gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
@@ -18,12 +20,12 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer'
-    gem 'unicode_utils'
-    gem 'webrick'
+    gem 'classifier-reborn'  # used for content categorization during the build
 end
+
+# Gems for development or external data fetching (outside :jekyll_plugins)
 group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'
     gem 'httparty'
-end
+\end
