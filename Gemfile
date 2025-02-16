@@ -1,8 +1,4 @@
 source 'https://rubygems.org'
-
-gem 'jekyll'
-
-# Core plugins that directly affect site building
 group :jekyll_plugins do
     gem 'jekyll-archives-v2'
     gem 'jekyll-email-protect'
@@ -24,8 +20,6 @@ group :jekyll_plugins do
 
     gem 'classifier-reborn'  # used for content categorization during the build
 end
-
-# Gems for development or external data fetching (outside :jekyll_plugins)
 group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'
