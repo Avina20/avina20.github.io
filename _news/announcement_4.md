@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined Develop for Good as Engineering Manager Intern
+Joined Develop for Good as Engineering Manager Intern for One Voice Foundation
