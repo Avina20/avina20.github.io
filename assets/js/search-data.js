@@ -382,7 +382,12 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-joined-pharmeasy-as-a-software-engineer-in-supply-chain-management-warehouse-team",
+    },{id: "books-the-godfather",
+          title: 'The Godfather',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the_godfather/";
+            },},{id: "news-joined-pharmeasy-as-a-software-engineer-in-supply-chain-management-warehouse-team",
           title: 'Joined PharmEasy as a Software Engineer in Supply Chain Management - Warehouse team...',
           description: "",
           section: "News",},{id: "news-left-pharmeasy",
