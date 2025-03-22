@@ -48,20 +48,12 @@
   ],
   "work": [
     {
-      "name": "Metropolitan Transportation Authority (MTA)",
-      "position": "Operations Support Intern",
-      "url": "https://new.mta.info/",
-      "startDate": "2025-01-30",
-      "endDate": "2025-05-09",
-      "summary": "Construct Workforce Manage System and Streamline timekeeping process by digitizing timekeeping. Design Quarterly Training Blitz Communication. Predict demand using historical data, forecasting records to anticipate workload changes"
-    },
-    {
       "name": "Develop for Good",
       "position": "Engineering Manager Intern",
       "url": "https://pharmeasy.in/",
       "startDate": "2024-10-08",
-      "endDate": "",
-      "summary": "Defined technical milestones and delegated weekly deliverables to a team of engineers, ensuring alignment with project timelines and objectives for an AI-driven journaling app. Contributed hands-on development expertise using React Native to build a cohesive user experience for the app, designed to provide spiritual insights and facilitate daily reflections. Collaborated closely with the Product Manager to oversee technical planning, resource allocation, and quality assurance, enabling smooth development processes and adherence to project standards. \n {React Native, Typescript, Expo, Supabase, WatermelonDB}"
+      "endDate": "2025-02-08",
+      "summary": "Engineered a cross-platform mobile app using React Native, Typescript, Supabase and Expo. Define technical milestones and weekly deliverables to ensure a timely delivery and seamless experience of the app. Recovered a corrupted Supabase database by extracting and migrating 100+ customer records and associated metadata, preventing data loss, and restoring full functionality within 72 hours. \n {React Native, Typescript, Expo, Supabase, WatermelonDB}"
     },
     {
       "name": "PharmEasy",
@@ -140,62 +132,133 @@
   ],
   "certificates": [
     {
-      "name": "Machine Learning",
+      "name": "Neural Networks and Deep Learning",
       "date": "2018-01-01",
-      "issuer": "Stanford University",
+      "issuer": "deeplearning.io",
       "url": "https://example.com",
       "icon": "fa-solid fa-location-dot"
     },
     {
-      "name": "Quantum Computing",
+      "name": "Java SE8 Fundamentals",
       "date": "2018-01-01",
-      "issuer": "Stanford University",
+      "issuer": "VRJ Institute - Oracle Workforce Development Program",
       "url": "https://example.com",
       "icon": "fa-solid fa-tag"
     },
     {
-      "name": "Quantum Information",
+      "name": "Cluster Analysis in Data Mining",
       "date": "2018-01-01",
-      "issuer": "Stanford University",
+      "issuer": "University of Illinois at Urbana-Champaign",
       "url": "https://example.com",
       "icon": "fa-solid fa-envelope"
     },
     {
-      "name": "Quantum Cryptography",
+      "name": "Java for Android",
       "date": "2018-01-01",
-      "issuer": "Stanford University",
+      "issuer": "Vanderbilt University",
       "url": "https://example.com",
       "icon": "fa-solid fa-hashtag"
     },
     {
-      "name": "Quantum Communication",
+      "name": "IBM  TechXchange Dev Day: Virtual Agents",
       "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
+      "issuer": "IBM",
+      "url": "https://www.virtualbadge.io/certificate-validator?credential=f310e2ae-3b20-462a-a7be-145f131518ea",
       "icon": "fa-solid fa-calendar"
     },
     {
-      "name": "Quantum Teleportation",
+      "name": "Interfacing with the Raspberry Pi",
       "date": "2018-01-01",
-      "issuer": "Stanford University",
+      "issuer": "University of California, Irvine",
       "url": "https://example.com",
       "icon": "fa-solid fa-clipboard-check"
     }
   ],
   "skills": [
     {
-      "name": "Physics",
+      "name": "Languages",
       "level": "Master",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Java",
+        "Python",
+        "Kotlin",
+        "C++",
+        "C"
       ]
-    }
+    },
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Bootstrap",
+        "PHP",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "JQuery",
+        "PHP",
+        "Spring Boot",
+        "AWS",
+        "Django",
+        "Flask",
+        "Node.js"
+      ]
+    },
+    {
+      "name": "App Development",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "React Native",
+        "Expo",
+        "Typescript",
+        "Supabase",
+        "WatermelonDB",
+        "Android Studio",
+        "XCode"
+      ]
+    },
+    {
+      "name": "Machine Learning and Deep Learning",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "NLP",
+        "Computer Vision",
+        "GenAI",
+        "TensorFlow",
+        "Scikit"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "AWS",
+        "Azure",
+        "Kubernetes",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Big Data and Data Engineering",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Hadoop",
+        "Spark",
+        "Hive",
+        "Data Analysis",
+        "GIS"
+      ]
+      }
   ],
   "languages": [
     {
@@ -216,37 +279,58 @@
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Technology"
     },
     {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+      "name": "Engineering and Building"
+    },
+    {
+      "name": "Software Development"
+    },
+    {
+      "name": "Reading"
+    },
+    {
+      "name": "Traveling"
+    },
+    {
+      "name": "Music"
+    },
+    {
+      "name": "Cooking"
     }
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
+      "name": "ClassmateIo",
+      "summary": "Developed an AWS-based web platform integrating gamification and NLP, enhancing learning engagement for users. Integrated S3, Lambda, CodeFormation, DynamoDB, Lex, Transcribe and deployed Flask app on EC2 for high traffic handling and auto scaling, to implement lecture audio transcription, quiz-based learning, calendar events and reminders. Utilized NLP techniques for text summarization and MCQ generation",
+      "highlights": ["AWS", "Python", "Natural Language Processing", "Flask", "Machine Learning"],
+      "startDate": "2023-10-01",
+      "endDate": "2023-12-01",
+      "url": "https://example.com"
+    },
+    {
+      "name": "StepFreeMTA",
+      "summary": "Devised a web-based subway app to assist individuals with disabilities and mobility challenges. Using Django, deployed on AWS Elastic Beanstalk, leveraging Google Maps API, including Places, Search, and Routing APIs. Integrated trip planning, real-time updates from MTA and NYCOpenData, and crowdsourced reporting for reliability. Ensured code quality and coverage with tools like Coveralls",
+      "highlights": ["Django", "AWS", "Google Maps API", "Javascript"],
+      "startDate": "2024-10-01",
+      "endDate": "2024-12-01",
+      "url": "https://example.com"
+    },
+    {
+      "name": "Dining Concierge",
+      "summary": "Serverless, microservice driven chatbot, that sends restaurant suggestions given a set of preferences. Built on AWS; the data for restaurants are scraped from yelp from 5,000+ random restaurants from Manhattan",
+      "highlights": ["AWS", "Python", "Web scraping", "NLP"],
+      "startDate": "2023-09-01",
+      "endDate": "2023-10-01",
+      "url": "https://example.com"
+    },
+    {
+      "name": "Vacbook",
+      "summary": "A vaccination slot booking system built using Kotlin, Java, and SpringBoot with Java Swing UI for seamless user interaction. Implemented RESTful APIs using, MySQL, and JPA; and integrated Kafka and Kubernetes for scalability and fault tolerance",
+      "highlights": ["Kotlin", "Java", "SpringBoot", "MySQL", "Kafka", "Kubernetes"],
+      "startDate": "2024-01-01",
+      "endDate": "2024-05-01",
       "url": "https://example.com"
     }
   ]
