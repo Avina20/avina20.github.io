@@ -399,9 +399,6 @@ ninja.data = [{
           section: "News",},{id: "news-joined-develop-for-good-as-engineering-manager-intern-for-one-voice-foundation",
           title: 'Joined Develop for Good as Engineering Manager Intern for One Voice Foundation',
           description: "",
-          section: "News",},{id: "news-join-metropolitan-transportation-authority-mta-as-operations-support-intern",
-          title: 'Join Metropolitan Transportation Authority (MTA) as Operations Support Intern',
-          description: "",
           section: "News",},{id: "projects-classmate-io",
           title: 'Classmate.io',
           description: "Revolutionizing learning experience using gamification and AI; Web app built on AWS using NLP techniques",
@@ -452,35 +449,28 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%61%78%32%30%35%31@%6E%79%75.%65%64%75", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/Avina20", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/avina-829a03151", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
+        id: 'social-whatsapp',
+        title: 'whatsapp',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://wa.me/+1 551-237-1192", "_blank");
         },
       },{
       id: 'light-theme',
