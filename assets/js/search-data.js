@@ -399,7 +399,12 @@ ninja.data = [{
           section: "News",},{id: "news-joined-develop-for-good-as-engineering-manager-intern-for-one-voice-foundation",
           title: 'Joined Develop for Good as Engineering Manager Intern for One Voice Foundation',
           description: "",
-          section: "News",},{id: "projects-classmate-io",
+          section: "News",},{id: "projects-poll",
+          title: 'Poll',
+          description: "Polling app built on Django",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_project/";
+            },},{id: "projects-classmate-io",
           title: 'Classmate.io',
           description: "Revolutionizing learning experience using gamification and AI; Web app built on AWS using NLP techniques",
           section: "Projects",handler: () => {
@@ -429,19 +434,19 @@ ninja.data = [{
           description: "A community building platform for neighbourhood",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+            },},{id: "projects-onevoice",
+          title: 'OneVoice',
+          description: "AI-based journalling app for Christians",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+            },},{id: "projects-stock-price-prediction",
+          title: 'Stock Price Prediction',
+          description: "Time series forecasting in stock markets using Deep Learning",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
+            },},{id: "projects-stepfreemta",
+          title: 'StepFreeMTA',
+          description: "Subway app for people with disability and mobility challenges",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
