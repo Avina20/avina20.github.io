@@ -1,81 +1,55 @@
 ---
 layout: page
-title: project 7
-description: with background image
-img: assets/img/4.jpg
+title: OneVoice
+description: AI-based journalling app for Christians
+img: assets/img/journal.jpg
 importance: 2
-category: work
-related_publications: true
+category: app
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+<p>The main idea for the app was to develop a cross-platform journaling mobile application for the Firm Development Foundation, an organization that aims to harness technology to uplift humanity through principles of faith, integrity, and stewardship. </p>
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<p>The app would enable users to engage in personal and spiritual reflection while sharing their entries with others. The app was targeted towards Christians or people interested in Christianity. The app used AI to suggest bible verses to help facilitate journalling. AI will also help find themes across users and find a collective voice of people each day to see if there are themes across that planet that people are experiencing. The vision is to be a place of peace to clear peoples minds and use technology to facilitate that.</p>
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dfg/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dfg/2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+
+<div>
+<p>
+Building on the work of the previous team, we implemented core features such as the home page, navigation, tagging, searching as well as introducing voice recording functionality. We built it using React Native, Expo and Typescript. For database, we used Supabase, an open source Firebase alternative. It was selected due to its integrated authentication system and compatibility with Expo and React Native. Supabase’s built-in tools facilitated smooth data querying and management. We also used WatermelonDB for offline support. For testing, we used iOS simulator - Xcode, Android studio for Android.</p></div>
+
+
+    React Native
+    Typescript
+    Expo
+    WatermelonDB
+    Supabase
+    Xcode
+    Android Studio
+    Github
+
+<div></div>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/dfg/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+<p>
+The demo for the app can be found here:
+ <ul>
+  <li><a href="https://youtu.be/I2WGMh_pu3E">Youtube</a></li>
+  <li><a href="https://youtu.be/fbvDek1t288">Youtube</a></li>
+  </ul>
+</p>

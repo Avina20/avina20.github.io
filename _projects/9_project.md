@@ -1,80 +1,54 @@
 ---
 layout: page
-title: project 9
-description: another project with an image 🎉
-img: assets/img/6.jpg
+title: StepFreeMTA
+description: Subway app for people with disability and mobility challenges
+img: assets/img/mta/1.jpg
 importance: 4
-category: fun
+category: cloud
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+StepFreeMTA is a transit platform that empowers individuals with disabilities to travel with ease. Our mission is to provide comprehensive and real-time information about accessibility features in public transit, ensuring that all individuals can navigate NYC with confidence.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+StepFreeMTA addresses these challenges faced by disabled people by offering real-time insights into accessible stations, crowdsourced outage reporting, and personalized trip planning. Our platform promotes user-driven feedback to continuously enhance public transit accessibility for all. StepFreeMTA also prioritizes routing users through exclusively ADA approved stations.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Features:
+<ul>
+<li>Interactive Map</li>
+<li>Trip Planning</li>
+<li>Live Alerts</li>
+<li>Crowdsourced Reporting</li>
+<li>Messaging</li>
+<li>Personalization Options</li>
+<li>Ratings and Reviews</li>
+<li>Admin Tools</li>
+</ul>
+
+    AWS
+    Frontend
+        HTML
+        CSS
+        Javascript
+    Backend
+        Python
+        Django
+    Database
+        Sqlite
+    Data source
+        NYC Open Data
+        MTA
+    Google Maps API
+    Coveralls
+    Travis
+
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/mta/2.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+The code can be found :  <a href="https://youtu.be/I2WGMh_pu3E">Here</a>
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+Project Presentaion : <a href ="https://prezi.com/view/XzNBUxlDO7lGCtVgFX5L/"> Prezi </a>

@@ -2,7 +2,7 @@
 layout: page
 title: Normalization of satellite images
 description: Research internship in Image Processing under Dr. Santhi V funded by ISRO
-img: assets/img/inp1.jpg
+img: assets/img/inp2.jpg
 importance: 1
 category: ai
 ---
