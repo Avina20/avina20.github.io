@@ -414,8 +414,8 @@ ninja.data = [{
           description: "Vaccination slot reserving system",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-normalization-of-esa-s-envisat-ocean-satellite-images",
-          title: 'Normalization of ESA’s ENVISAT ocean satellite images',
+            },},{id: "projects-normalization-of-satellite-images",
+          title: 'Normalization of satellite images',
           description: "Research internship in Image Processing under Dr. Santhi V funded by ISRO",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
