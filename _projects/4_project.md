@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Normalization of ESA’s ENVISAT ocean satellite images
+title: Normalization of satellite images
 description: Research internship in Image Processing under Dr. Santhi V funded by ISRO
 img: assets/img/inp1.jpg
 importance: 1
-category: work
+category: ai
 ---
 
 The decrease of backscatter in the range direction of the signal received by sensors while radar imaging results in a progressive reduction of brightness over images from near to far range. Mostly HH and VV polarizations are affected by this phenomenon. This affects the detection and classification of sea surface features and activities in SAR images. In this paper, we proposed an algorithm to normalize the satellite images obtained by radar remote sensing. The backscatter of waves results in gradual decrease of brightness along the nadir, from near range to far range, and to minimize the effects of the backscatter the images was be normalized to a reference angle, and thereby producing in higher quality image with easier object detection in them. We implemented the incidence angle normalization using an inverse profile to normalize the image. The inverse profile is simply an image in which the direction of progressive decrease of brightness is reversed. The inverse profile is created in a way that on merging with the input image, it results in an image with normalized backscatter. The normalized image can be used to monitor the activities in the ocean, like oil spill, currents, eddies, etc. or can be used to improve the quality of raw data for further research on SAR images and detect various oceanographic activities.

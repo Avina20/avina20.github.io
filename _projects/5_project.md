@@ -4,7 +4,7 @@ title: Dining Concierge
 description: Dining Concierge chatbot sends restaurant suggestions given a set of preferences that you provide through conversation
 img: assets/img/chatbot.jpg
 importance: 2
-category: work
+category: cloud
 ---
 
 Customer Service is a core service for a lot of businesses around the world and it is getting disrupted now by Natural Language Processing-powered applications. 

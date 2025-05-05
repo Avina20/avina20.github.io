@@ -4,7 +4,7 @@ title: Vacbook
 description: Vaccination slot reserving system 
 img: assets/img/kotlin.png
 importance: 1
-category: work
+category: web
 ---
 
 Vacbook is an online Scheduling Reservation System for booking Vaccination Slots. The inspiration for this project is Cowin, the Indian vaccine slot booking system made for Covid-19 vaccine booking. It allows user to view, reserve, modify and delete bookings for their vaccination. It will be secure system and users can interact using the GUI made in Java. The system will verify the user and make sure correct vaccines are reserved for user, in the recommended time interval.

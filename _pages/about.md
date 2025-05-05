@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: New York. 5512371192. ax2051@nyu.edu
+subtitle: MSCS @ NYU | Backend to Intelligent Systems | Problem Solver | Ready to innovate
 
 profile:
   align: right
@@ -14,10 +14,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a second year Master's student at [New York University](https://www.nyu.edu/) majoring in Computer Science with current GPA of 3.6. I have done my Bachelors from [Vellore Institute of Technology](https://vit.ac.in/) majoring in Computer Science and Engineering with 8.89 GPA.
+Currently pursuing my Master's in Computer Science at [New York University](https://www.nyu.edu/) with CGPA of 3.6 I've built a strong foundation in software and a growing passion for Artificial Intelligence and Machine Learning. I have done my Bachelors from [Vellore Institute of Technology](https://vit.ac.in/) majoring in Computer Science and Engineering with 8.89 GPA.
 
-I have 2 years work experience as Software Engineer (Backend) in an e-pharmacy startup called [PharmEasy](https://pharmeasy.in/). I have also interned as Research Intern (Image Processing) in [Indian Space Research Organization](https://www.isro.gov.in/) where I worked on the Normalization of satellite images. I have also interned in [Amilcar Technologies](https://www.amilcartek.com/) as Web Developer for 2 months where I was responsible for recreation of their official website. The details can be found in [CV](/cv/).
+My 2 years as a Backend Software Engineer at [PharmEasy](https://pharmeasy.in/), a unicorn startup, taught me how to build and manage large-scale systems. My Research Internship at [Indian Space Research Organization](https://www.isro.gov.in/), where my work on the Normalization of satellite images using Machine Learning with Image Processing was a turning point, sparking my deep interest in AI. I've continued to explore this interest through personal and academic projects in areas like Machine Learning, Deep Learning, and Natural Language Processing, even participating in the recent Amazon GenAI hackathon in New York. Beyond these experiences, I have also been working on a projects on website development, app development and big data. I really enjoyed learning and implementing skills to solve interesting problems. The details can be found in [Projects](/projects/). I have also interned at [Amilcar Technologies](https://www.amilcartek.com/) where I gained web development skills.  Complementing these technical experiences, my internship as an Engineering Manager Intern at One Voice Foundation allowed me to develop leadership and organizational abilities within an engineering context, alongwith building AI-based journalling app. The details can be found in [CV](/cv/).
 
-Apart from these, I have worked on a number of personal and academic projects. I have done projects on web development and app development. I really enjoyed learning and implementing Machine Learning models to solve interesting problems. I also skilled myself in Deep Learning techniques and developed projects using DL models, which really helped me in my ISRO internship as well. Recently I took part in the GenAI hackathon by Amazon in NY. I am also intrigued by NLP and have built projects on summarization and mcq generation. The details can be found in [Projects](/projects/).
-
-I am really passionate about technology. I am really interested in exploring new developments, learning new skills and using those skills to build something creative and useful. I have always loved working in teams and have great communication skills.
+I'm excited about new technologies and eager to apply my skills creatively and collaboratively to build innovative solutions.

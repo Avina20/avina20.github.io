@@ -4,7 +4,7 @@ title: Amilcartek
 description: Redesigned the official website for a game dev company based in South Africa
 img: assets/img/amilcar.jpg
 importance: 2
-category: work
+category: web
 giscus_comments: true
 ---
 

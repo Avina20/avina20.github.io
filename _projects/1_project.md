@@ -4,7 +4,7 @@ title: Classmate.io
 description: Revolutionizing learning experience using gamification and AI; Web app built on AWS using NLP techniques 
 img: assets/img/elearning.jpg
 importance: 1
-category: work
+category: ai
 related_publications: true
 ---
 

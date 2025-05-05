@@ -4,7 +4,7 @@ title: ConnectX
 description: A community building platform for neighbourhood
 img: assets/img/connectX.png
 importance: 2
-category: work
+category: web
 ---
 
 ConnectX is an online service for facilitating communication among people in a neighborhood
