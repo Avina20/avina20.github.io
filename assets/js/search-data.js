@@ -404,6 +404,11 @@ ninja.data = [{
           description: "Polling app built on Django",
           section: "Projects",handler: () => {
               window.location.href = "/projects/10_project/";
+            },},{id: "projects-intelliforexvision",
+          title: 'IntelliForexVision',
+          description: "AI-based real-time Forex market analysis and Long/Short trading strategies",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/11_project/";
             },},{id: "projects-classmate-io",
           title: 'Classmate.io',
           description: "Revolutionizing learning experience using gamification and AI; Web app built on AWS using NLP techniques",
