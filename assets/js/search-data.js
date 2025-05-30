@@ -409,6 +409,11 @@ ninja.data = [{
           description: "AI-based real-time Forex market analysis and Long/Short trading strategies",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_project/";
+            },},{id: "projects-openfoodfacts",
+          title: 'OpenFoodFacts',
+          description: "Exploring Global Food Quality Patterns through a Visual Dashboard",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/12_project/";
             },},{id: "projects-classmate-io",
           title: 'Classmate.io',
           description: "Revolutionizing learning experience using gamification and AI; Web app built on AWS using NLP techniques",
