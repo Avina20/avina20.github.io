@@ -41,6 +41,9 @@ Tech Stack
     ● Scheduling - RepeatedTimer
     ● Pandas, NumPy, Scikit
 
+<h3>Architecture</h3>
+Real-time data was collected for 10 currency pairs from Polygon.io website. The dataset we used deals with real-world forex transactions. We used PyCaret to compare 15+ classifiers and selected the best model using metrics like Accuracy, F1, Recall, Auc, etc. Since the forex markets are open only 5 days a week, there are ranges of data with missing values. Moreover, even during working hours there can be missing data for hours. This can lead to inconsistencies in data, affect our calculations, make the model biased and overall affect the result of our model. Built a regression model for base currency pairs (EURUSD, GBPCHF, and USDCAD) using real-time data from Polygon, followed by a classification task for the remaining currency pairs.Correlation with BTC was calculated and added as a feature to replicate macroeconomic influence.
+
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -51,8 +54,7 @@ Tech Stack
     </div>
 </div>
 
-<h3>Architecture</h3>
-Real-time data was collected for 10 currency pairs from Polygon.io website. The dataset we used deals with real-world forex transactions. We used PyCaret to compare 15+ classifiers and selected the best model using metrics like Accuracy, F1, Recall, Auc, etc. Since the forex markets are open only 5 days a week, there are ranges of data with missing values. Moreover, even during working hours there can be missing data for hours. This can lead to inconsistencies in data, affect our calculations, make the model biased and overall affect the result of our model. Built a regression model for base currency pairs (EURUSD, GBPCHF, and USDCAD) using real-time data from Polygon, followed by a classification task for the remaining currency pairs.Correlation with BTC was calculated and added as a feature to replicate macroeconomic influence.
+
 
 <h3>Results:</h3>
 
