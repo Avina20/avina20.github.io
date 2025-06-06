@@ -48,12 +48,18 @@
   ],
   "work": [
     {
+      "name": "QuantAI",
+      "position": "Intern",
+      "startDate": "2024-10-08",
+      "summary": "Developing agentic AI systems using LLMs for autonomous trading strategy generation and market analysis. Optimizing fine-tuned transformer models for financial document analysis, to reduce the decision-making from 150 to 3 sec"
+    },
+    {
       "name": "Develop for Good",
-      "position": "Engineering Manager Intern",
-      "url": "https://pharmeasy.in/",
+      "position": "Volunteer",
+      "url": "https://www.developforgood.org/",
       "startDate": "2024-10-08",
       "endDate": "2025-02-08",
-      "summary": "Engineered a cross-platform mobile app using React Native, Typescript, Supabase and Expo. Define technical milestones and weekly deliverables to ensure a timely delivery and seamless experience of the app. Recovered a corrupted Supabase database by extracting and migrating 100+ customer records and associated metadata, preventing data loss, and restoring full functionality within 72 hours. \n {React Native, Typescript, Expo, Supabase, WatermelonDB}"
+      "summary": "Engineered an AI based cross-platform mobile app using React Native, Typescript, Supabase and Expo. Recovered a corrupted Supabase database by extracting and migrating 100+ customer records and associated metadata, preventing data loss, and restoring full functionality within 72 hours. \n {React Native, Typescript, Expo, Supabase, WatermelonDB}"
     },
     {
       "name": "PharmEasy",
