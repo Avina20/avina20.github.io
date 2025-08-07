@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined New York University for my masters in Computer Science
+Joined New York University for Masters in Computer Science
