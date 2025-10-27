@@ -49,8 +49,17 @@
   "work": [
     {
       "name": "QuantAI",
-      "position": "Intern",
-      "startDate": "2024-10-08",
+      "position": "AI Systems Engineer",
+      "url": "https://quant-ai-research.com/",
+      "startDate": "2025-08-25",
+      "summary": "Building from scratch ALX, compiler for domain-specific language used in AI-driven high-frequency trading system. Engineering the core Syntax-to-Vectorization Pathway in MLIR and final code emission via the LLVM backend into ighly-optimized SIMD machine code"
+    },
+    {
+      "name": "QuantAI",
+      "position": "Quant Intern",
+      "url": "https://quant-ai-research.com/",
+      "startDate": "2025-05-15",
+      "endDate": "2025-08-24",
       "summary": "Developing agentic AI systems using LLMs for autonomous trading strategy generation and market analysis. Optimizing fine-tuned transformer models for financial document analysis, to reduce the decision-making from 150 to 3 sec"
     },
     {
@@ -58,7 +67,7 @@
       "position": "Volunteer",
       "url": "https://www.developforgood.org/",
       "startDate": "2024-10-08",
-      "endDate": "2025-02-08",
+      "endDate": "2025-05-15",
       "summary": "Engineered an AI based cross-platform mobile app using React Native, Typescript, Supabase and Expo. Recovered a corrupted Supabase database by extracting and migrating 100+ customer records and associated metadata, preventing data loss, and restoring full functionality within 72 hours. \n {React Native, Typescript, Expo, Supabase, WatermelonDB}"
     },
     {
