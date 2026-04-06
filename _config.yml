@@ -2,12 +2,13 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Avina | Portfolio # the website title (if blank, full name will be used instead)
 first_name: Avina
 middle_name: 
 last_name: 
 email: ax2051@nyu.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  NYU CS graduate & Software Engineer at QuantAI. Specializing in high-performance distributed systems, machine learning for finance and compiler designs
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
