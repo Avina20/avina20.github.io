@@ -6,7 +6,7 @@ subtitle: SWE @ QuantAI Research | MSCS @ NYU | Backend to Intelligent Systems |
 
 profile:
   align: right
-  image: cv_dp.jpg
+  image: cv_dp.jpeg
   image_circular: true # crops the image to make it circular
 
 announcements:
