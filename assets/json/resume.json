@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Avina",
-    "label": "Student",
+    "label": "Software Engineer",
     "image": "",
-    "email": "ax2051@nyu.edu",
+    "email": "mauryavina20@gmail.com",
     "phone": "(551) 237-1192",
     "url": "https://avina20.github.io",
-    "summary": "A New York residing, Master's student at New York University, majoring in Computer Science. I am a passionate learner and a quick adapter to new technologies. I am looking for job opportunities in USA, to apply my skills and knowledge in the real world.",
+    "summary": "I bring experience across the full stack, backend systems at scale, deep learning, cloud infrastructure, and the kind of low-level optimization work that most engineers never touch",
     "location": {
       "address": "59th Stret",
       "postalCode": "11220",
@@ -30,7 +30,7 @@
       "major": "Computer Science",
       "degree": "Master of Science (MS)",
       "startDate": "2023-09-01",
-      "endDate": "",
+      "endDate": "2025-05-15",
       "GPA": "3.6",
       "courses": ["Design and Analysis of Algorithms, Operating Systems, Machine Learning, Information, Security, and Privacy, Cloud Computing, Special Topics in Java, Principles of Database Systems, Data Engineering, Big Data, Software Engineering"]
     },
@@ -52,7 +52,7 @@
       "position": "AI Systems Engineer",
       "url": "https://quant-ai-research.com/",
       "startDate": "2025-08-25",
-      "summary": "Building from scratch ALX, compiler for domain-specific language used in AI-driven high-frequency trading system. Engineering the core Syntax-to-Vectorization Pathway in MLIR and final code emission via the LLVM backend into ighly-optimized SIMD machine code"
+      "summary": "Developing autonomous Portfolio Management system, solving Sharpe Ratio and Target Return optimization problems; reduced backtesting runtime by 98% from 24 hours to 30 minutes. Leading development of custom MLIR-based compute kernels targeting critical hot-path operations, eliminating traditional compilation overhead and achieving 7X speed improvement. Developed a Python-to-MLIR interface using foreign function interfaces (FFI), enabling the flexibility and ease of Python with the raw execution speed of compiled machine code. Leading development of ALX, a DSL compiler; engineered the core Syntax-to-Vectorization pathway in MLIR and LLVM backend, emitting optimized SIMD machine code, outperforming Pandas and NumPy by 5X. Architected and deployed containerized benchmarking suites using Docker on GCP, validating compiler reliability and latency across 50GB+ of real-time market data"
     },
     {
       "name": "QuantAI",
@@ -60,7 +60,7 @@
       "url": "https://quant-ai-research.com/",
       "startDate": "2025-05-15",
       "endDate": "2025-08-24",
-      "summary": "Developing agentic AI systems using LLMs for autonomous trading strategy generation and market analysis. Optimizing fine-tuned transformer models for financial document analysis, to reduce the decision-making from 150 to 3 sec"
+      "summary": " Achieved 100x speed improvement in complex algorithms by implementing low-level CPU optimizations, memory management, and assembly-level programming techniques in C, Assembly and C++. Engineered and optimized algorithmic trading strategies like VWAP for a high frequency trading system"
     },
     {
       "name": "Develop for Good",

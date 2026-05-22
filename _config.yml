@@ -2,11 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Avina | Portfolio # the website title (if blank, full name will be used instead)
+title: Avina Avina
 first_name: Avina
 middle_name: 
-last_name: 
-email: ax2051@nyu.edu
+last_name: Avina
+email: mauryavina20@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   NYU CS graduate & Software Engineer at QuantAI. Specializing in high-performance distributed systems, machine learning for finance and compiler designs
 footer_text: >

@@ -2,11 +2,11 @@
 layout: about
 title: About
 permalink: /
-subtitle: MSCS @ NYU | Backend to Intelligent Systems | Problem Solver | Ready to innovate
+subtitle: SWE @ QuantAI Research | MSCS @ NYU | Backend to Intelligent Systems | Problem Solver | Ready to innovate
 
 profile:
   align: right
-  image: cv_dp.jpeg
+  image: cv_dp.jpg
   image_circular: true # crops the image to make it circular
 
 announcements:
@@ -18,9 +18,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I recently graduated with a Master's in Computer Science from [New York University](https://www.nyu.edu/) with GPA of 3.6, building a strong foundation in software engineering with growing expertise in Artificial Intelligence and Machine Learning. I completed my Bachelor's from [Vellore Institute of Technology](https://vit.ac.in/) majoring in Computer Science and Engineering with 8.89 GPA.
+I'm a Software Engineer specializing in high-performance AI systems and compilers, currently at [QuantAI](https://quant-ai-research.com/) where I build the infrastructure that makes low-latency trading possible at machine speed. My work lives at the intersection of compiler engineering and quantitative finance. I architected ALX, a domain-specific language compiler with a full MLIR/LLVM backend that emits optimized SIMD machine code, outperforming NumPy by 5X on financial compute workloads and earning a patent from NYU. From designing Python-to-MLIR FFI bridges that preserve researcher ergonomics while hitting compiled-C performance, to slashing portfolio backtesting runtimes from 24 hours to 30 minutes, I obsess over the gap between theoretical performance and what actually runs fast in production. 
 
-My 2 years as a Backend Software Engineer at [PharmEasy](https://pharmeasy.in/), a unicorn startup, taught me how to build and manage large-scale systems. Currently, I'm a Research Intern at [QuantAI](https://quant-ai-research.com/) where I'm pushing the boundaries of high-frequency trading technology. I've achieved a 500x speed improvement in trading algorithms through low-level CPU optimizations and assembly-level programming. I'm also building an LLVM compiler for a domain-specific language designed for high-frequency, low-latency systems. This work has earned recognition through our successful NSF federal grant pitch and a patent from NYU for our new domain-specific language.
+I hold a Master's in Computer Science from [New York University](https://www.nyu.edu/), Bachelor's in Computer Science and Engineering from [Vellore Institute of Technology](https://vit.ac.in/) and bring experience across the full stack; backend systems at scale, deep learning, cloud infrastructure, and the kind of low-level optimization work that most engineers never touch.
+
+My 2 years as a Backend Software Engineer at [PharmEasy](https://pharmeasy.in/), a unicorn startup, taught me how to build and manage large-scale systems. Previously as a Research Intern at [QuantAI](https://quant-ai-research.com/) I was pushing the boundaries of high-frequency trading technology. I achieved a 500X speed improvement in trading algorithms through low-level CPU optimizations and assembly-level programming. I also worked on the LLVM compiler for the domain-specific language. This work earned recognition through our successful NSF federal grant pitch and a patent from NYU for our new domain-specific language.
 
 My Research Internship at [Indian Space Research Organization](https://www.isro.gov.in/) was a turning point, where my work on the Normalization of satellite images using Machine Learning with Image Processing sparked my deep interest in AI. I've continued exploring this passion through projects in areas like Machine Learning, Deep Learning, and Natural Language Processing, even participating in the recent Amazon GenAI hackathon in New York. 
 
